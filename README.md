@@ -11,4 +11,6 @@ This python script utilizes CyberVision's CVE (Common Vulnerabilities and Exposu
     ```python find-kevs.py [filename]```
 6. Open the ```kev-report.html``` file in your browser to view the results
 
+![example kev-report.html file](./example-html-file.png)
+
 **Note:** You will need to have Python (and the pandas and openpyxl libraries) installed on your device. To download Python, follow [these instructions](https://www.python.org/downloads/).
