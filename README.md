@@ -5,12 +5,7 @@ This python script utilizes CyberVision's CVE (Common Vulnerabilities and Exposu
 ## Steps
 1. Download this repository as a zip file
 2. Unzip the file and place your CyberVision CVE report in this folder
-3. Download the latest Known Exploited Vulnerabilities Catalog (**CSV version**) [here](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-4. Move this csv file into that same folder from above
-5. Run the following command (after replacing "[filename]" with the filename of your CyberVision CVE report along with the extension ".xlsx")
-    ```python find-kevs.py [filename]```
-6. Open the ```kev-report.html``` file in your browser to view the results
+3. Run the ```find-kevs.exe``` file
+4. Open the ```kev-report.html``` file in your browser to view the results
 
 ![example kev-report.html file](./example-html-file.PNG)
-
-**Note:** You will need to have Python (and the pandas and openpyxl libraries) installed on your device. To download Python, follow [these instructions](https://www.python.org/downloads/).
